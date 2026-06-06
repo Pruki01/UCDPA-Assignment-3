@@ -1,0 +1,27 @@
+Library web catalog.
+
+base.html
+index.html
+book-specific.html
+create.html
+update.html
+login.html
+register.html
+contact-us.html
+
+List available books
+User registration/login
+
+Users:
+Can check books available
+Can review books
+Can reserve books if available?
+
+Librarians:
+Crud on books
+
+JS functionalities:
+- Search bar
+- Filter
+- Slideshow
+- Form validation
