@@ -26,3 +26,22 @@ class User:
 
     def get_address(self):
         return self._address
+
+    def print_details(self):
+        print(f"Id: {self._id}")
+        print(f"Email: {self._email}")
+        print(f"Password: {self._password}")
+        print(f"First Name: {self._f_name}")
+        print(f"Last Name: {self._l_name}")
+        print(f"Address: {self._address}")
+
+    def to_json(self):
+        new_json = {
+            "Id": {self._id},
+            "Email": {self._email},
+            "Password": {self._password},
+            "First Name": {self._f_name},
+            "Last Name": {self._l_name},
+            "Address": {self._address}
+        }
+        return new_json

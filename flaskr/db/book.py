@@ -29,3 +29,13 @@ class Book:
         print(f"Author: {self._author}")
         print(f"Genre: {self._genre}")
         print(f"Quantity: {self._qty}")
+
+    def to_json(self):
+        new_json = {
+            "ISBN": {self._isbn},
+            "Title": {self._title},
+            "Author": {self._author},
+            "Genre": {self._genre},
+            "Qty": {self._qty}
+            }
+        return new_json
