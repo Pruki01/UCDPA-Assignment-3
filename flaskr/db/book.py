@@ -32,7 +32,7 @@ class Book:
 
     def to_json(self):
         return {
-            "ISBN": self._isbn,
+            "ISBN": str(self._isbn),
             "Title": self._title,
             "Author": self._author,
             "Genre": self._genre,

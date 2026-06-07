@@ -37,7 +37,7 @@ class User:
 
     def to_json(self):
         return {
-            "Id": self._id,
+            "Id": str(self._id),
             "Email": self._email,
             "Password": self._password,
             "First Name": self._f_name,
