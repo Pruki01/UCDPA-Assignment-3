@@ -1,8 +1,9 @@
+from uuid import uuid4
 class Book:
 
-    def __init__(self, isbn, name, author, genre, qty):
-        self._isbn      = isbn
-        self._name      = name
+    def __init__(self, title, author, genre, qty):
+        self._isbn      = uuid4()
+        self._title     = title 
         self._author    = author
         self._genre     = genre
         self._qty       = qty
@@ -10,8 +11,8 @@ class Book:
     def get_isbn(self):
         return self._isbn
 
-    def get_name(self):
-        return self._name
+    def get_title(self):
+        return self._title
 
     def get_author(self):
         return self._author
@@ -21,3 +22,10 @@ class Book:
 
     def get_qty(self):
         return self._qty
+        
+    def print_details(self):
+        print(f"ISBN: {self._isbn}")
+        print(f"Title: {self._title}")
+        print(f"Author: {self._author}")
+        print(f"Genre: {self._genre}")
+        print(f"Quantity: {self._qty}")

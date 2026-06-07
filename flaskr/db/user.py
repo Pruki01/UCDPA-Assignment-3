@@ -1,7 +1,8 @@
+from uuid import uuid4
 class User:
     
-    def __init__(self, id, email, password, f_name, l_name, address):
-        self._id        = id
+    def __init__(self, email, password, f_name, l_name, address):
+        self._id        = uuid4()
         self._email     = email
         self._password  = password
         self._f_name    = f_name
