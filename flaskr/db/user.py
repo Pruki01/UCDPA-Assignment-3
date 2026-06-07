@@ -36,12 +36,11 @@ class User:
         print(f"Address: {self._address}")
 
     def to_json(self):
-        new_json = {
-            "Id": {self._id},
-            "Email": {self._email},
-            "Password": {self._password},
-            "First Name": {self._f_name},
-            "Last Name": {self._l_name},
-            "Address": {self._address}
+        return {
+            "Id": self._id,
+            "Email": self._email,
+            "Password": self._password,
+            "First Name": self._f_name,
+            "Last Name": self._l_name,
+            "Address": self._address
         }
-        return new_json
