@@ -11,7 +11,7 @@ def is_file_empty(file_path):
 
 def load_file(json_file):
 
-    if not is_file_empty(json_file):
+    if os.path.exists(json_file) and not is_file_empty(json_file):
         with open(json_file, "r") as file:
             return json.load(file)
 
@@ -21,5 +21,15 @@ def load_users():
 def load_books():
     return load_file(books_path)
 
+def write_db(json_file, json_data):
 
+    if os.path.exists(json_file):
+        with open(json_file, "w") as file:
+            json.dump(json_data, file, indent=4)
+
+def write_users(json_data):
+    write_db(users_path, json_data)
+    
+def write_books(json_data):
+    write_db(books_path, json_data)
     
