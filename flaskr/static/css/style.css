@@ -1,0 +1,27 @@
+:root{
+
+    --primary-f-colour: white;
+
+}
+
+body{
+
+    margin: 0 auto;
+
+}
+
+nav{
+
+    color: var(--primary-f-colour);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav__links a{
+
+    color: var(--primary-f-colour);
+    text-decoration: none;
+
+}
