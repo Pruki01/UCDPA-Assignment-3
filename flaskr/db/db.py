@@ -21,6 +21,14 @@ def load_users():
 def load_books():
     return load_file(books_path)
 
+def load_book(ISBN, book_list):
+    print(book_list)
+    for book in book_list:
+        if book['ISBN'] == str(ISBN):
+            return book
+
+    return None 
+
 def write_db(json_file, json_data):
 
     if os.path.exists(json_file):
