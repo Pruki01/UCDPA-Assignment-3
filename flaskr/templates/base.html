@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
+    
+    <nav>
+        <h2>Best Library</h2>
+        
+        <div class="nav__links">
+            <a href="#">About us</a>
+            <a href="#">Log in</a>
+        </div>
+    </nav>
     
     {% block content %}
     {% endblock %}    
