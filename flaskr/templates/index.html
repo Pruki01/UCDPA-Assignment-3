@@ -7,6 +7,7 @@
 {% block content %}
 
     {% for book in book_list %}
+    <h1>Hello world!</h1>
         <div class="book__card">
             <h1>{{ book['ISBN'] }}</h1>
             <a href="{{ url_for('book_page', ISBN=book['ISBN'] )}}">{{ book['Title'] }}</a>
