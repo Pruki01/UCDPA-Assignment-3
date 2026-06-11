@@ -37,10 +37,9 @@ class Book:
 
     def to_json(self):
         return {
-            "ISBN": str(self._isbn),
-            "Title": self._title,
-            "Author": self._author,
-            "Image": self._img,
-            "Genre": self._genre,
-            "Qty": self._qty
+                "Title": self._title,
+                "Author": self._author,
+                "Image": self._img,
+                "Genre": self._genre,
+                "Qty": self._qty
             }

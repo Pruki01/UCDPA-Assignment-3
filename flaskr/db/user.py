@@ -44,18 +44,21 @@ class User:
         print(f"Last Name: {self._l_name}")
         print(f"Address: {self._address}")
         
-        if (self._user_type == UserType.Staff):
+        if self._user_type == UserType.Staff:
             print("Staff Member")
-        elif (self._user_type == UserType.Visitor):
+        elif self._user_type == UserType.Visitor:
             print("User is a visitor")
 
     def to_json(self):
+
+        user_type = "Staff" if self._user_type == UserType.Staff else "Visitor"
+
         return {
-            "Id": str(self._id),
+
             "Email": self._email,
             "Password": self._password,
             "First Name": self._f_name,
             "Last Name": self._l_name,
             "Address": self._address,
-            "User Type": self._user_type
+            "User Type": user_type
         }
