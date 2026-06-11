@@ -1,13 +1,19 @@
 from uuid import uuid4
+from enum import Enum
+
+class UserType(Enum):
+    Staff   = 0
+    Visitor = 1
 class User:
     
-    def __init__(self, email, password, f_name, l_name, address):
+    def __init__(self, email, password, f_name, l_name, address, user_type):
         self._id        = uuid4()
         self._email     = email
         self._password  = password
         self._f_name    = f_name
         self._l_name    = l_name
         self._address   = address
+        self._user_type = user_type
 
     def get_id(self):
         return self._id
@@ -27,6 +33,9 @@ class User:
     def get_address(self):
         return self._address
 
+    def get_user_type(self):
+        return self._user_type
+
     def print_details(self):
         print(f"Id: {self._id}")
         print(f"Email: {self._email}")
@@ -34,6 +43,11 @@ class User:
         print(f"First Name: {self._f_name}")
         print(f"Last Name: {self._l_name}")
         print(f"Address: {self._address}")
+        
+        if (self._user_type == UserType.Staff):
+            print("Staff Member")
+        elif (self._user_type == UserType.Visitor):
+            print("User is a visitor")
 
     def to_json(self):
         return {
@@ -42,5 +56,6 @@ class User:
             "Password": self._password,
             "First Name": self._f_name,
             "Last Name": self._l_name,
-            "Address": self._address
+            "Address": self._address,
+            "User Type": self._user_type
         }
