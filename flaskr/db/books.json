@@ -1,1 +1,58 @@
-{}
+{
+    "7876bc73-6823-4ce5-a994-70618d74318e": {
+        "Title": "The Yellow Wallpaper",
+        "Author": "Charlotte Perkins Gilman",
+        "Image": "https://m.media-amazon.com/images/I/516m5+GudTL._AC_UF1000,1000_QL80_.jpg",
+        "Genre": "Horror",
+        "Description": "This short story is regarded as an important early work of American feminist literature, illustrating attitudes in the 19th century toward women's health, both physical and mental. Presented in the first person, the story is a collection of journal entries written by a woman whose physician husband (John) has rented an old mansion for the summer. Forgoing other rooms in the house, the couple moves into the upstairs nursery. As a form of treatment, the unnamed woman is forbidden from working, and is encouraged to eat well and get plenty of exercise and air, so she can recuperate from what he calls a \"temporary nervous depression \u2013 a slight hysterical tendency\", a diagnosis common to women in that period. Gilman used her writing to explore the role of women in America at the time. She explored issues such as the lack of a life outside the home and the oppressive forces of the patriarchal society.",
+        "Qty": 30
+    },
+    "7922a442-fc63-4bb4-9e2d-dfbeb4312351": {
+        "Title": "Animal Farm",
+        "Author": "George Orwell",
+        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fscottberkun.com%2Fwp-content%2Fuploads%2F2017%2F01%2Fanimal_farm_cover2014.jpg&f=1&nofb=1&ipt=505480be8db3fb07050b61759ef5c04531dd2381a9cb7d2521b9fa93ec46dbd4",
+        "Genre": "Political Satire",
+        "Description": "As humans get ousted from Manor Farm and animals take control, their utopian fantasy of running a farm on the basis of equality soon begins to crumble before their eyes. The rebellion of the animals, led by the two pigs, Napoleon and Snowball, gives way to corrupt practices that lead to unthinkable consequences.",
+        "Qty": 50
+    },
+    "a70e9e75-2a86-4dd8-a401-1557c2c4c188": {
+        "Title": "The Metamorphosis",
+        "Author": "Franz Kafka",
+        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fb5%2Fac%2Fa8%2Fb5aca8193b3667bb283f8ba4531a0a53.jpg&f=1&nofb=1&ipt=e874d91049dd11f1547bba0d60c6fbf5e57bb98181f1bfcce05a1237792f6187",
+        "Genre": "Dark Comedy",
+        "Description": "One morning, traveling salesman Gregor Samsa wakes from an anxious dream to discover that he has inexplicably changed into a monstrous insect. Nonetheless, life goes on, and poor Gregor is left to deal not only with the existential questions of who or what he now is but also with more mundane concerns: his job (which he fears he\u2019ll lose), his loved ones (whom he fears he disgusts), and the daily indignities of everyday life (which continue apace). Soon, even those who sympathize with his bizarre predicament begin to lose their patience\u2026",
+        "Qty": 15
+    },
+    "3fde7f69-c9a5-4dcd-adf2-640ea98aeeb9": {
+        "Title": "The Count of Monte Cristo",
+        "Author": "Alexandar Dumas",
+        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81JCe8%2BBS-L._SL1500_.jpg&f=1&nofb=1&ipt=3ecc227e55c923310ebea1cefee437c4b3294a2c16ad10ed97d3dfdf6cd0adcf",
+        "Genre": "Adventure Novel",
+        "Description": "Thrown in prison for a crime he has not committed, Edmond Dant\u00e8s is confined to the grim fortress of If. There he learns of a great hoard of treasure hidden on the Isle of Monte Cristo and he becomes determined not only to escape, but also to use the treasure to plot the destruction of the three men responsible for his incarceration. Dumas' epic tale of suffering and retribution, inspired by a real-life case of wrongful imprisonment, was a huge popular success when it was first serialized in the 1840s.",
+        "Qty": 20
+    },
+    "8068ad47-3090-4b98-9b85-1752fc798695": {
+        "Title": "Dracula",
+        "Author": "Bram Stoker",
+        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn2.penguin.com.au%2Fcovers%2Foriginal%2F9780141439846.jpg&f=1&nofb=1&ipt=b5d1acf2842864481d3a9eaa30036aa6104bd134f8abe6aaff20f17db002be71",
+        "Genre": "Horror",
+        "Description": "Young lawyer Jonathan Harker journeys to Transylvania to meet with the mysterious Count Dracula only to discover that his nobleman client is a vampire who is thirsty for new blood. After imprisoning Harker in his castle, Dracula travels to England to seduce Jonathan\u2019s fianc\u00e9e, Mina, and the battle against an ineffable evil begins.",
+        "Qty": 20
+    },
+    "3e422356-ddd6-49c0-902f-ee300f47f79f": {
+        "Title": "A Concise Introduction To Pure Mathematics",
+        "Author": "Martin Liebeck",
+        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcontents.kyobobook.co.kr%2Fsih%2Ffit-in%2F458x0%2Fpdt%2F9781439835982.jpg&f=1&nofb=1&ipt=2e8095349beda5d645c8ce4376575174821ad871709bbd4f0c5759a45b2fd675",
+        "Genre": "Educational",
+        "Description": "Accessible to all students with a sound background in high school mathematics, A Concise Introduction to Pure Mathematics, Fourth Edition presents some of the most fundamental and beautiful ideas in pure mathematics. It covers not only standard material but also many interesting topics not usually encountered at this level, such as the theory of solving cubic equations; Euler\u2019s formula for the numbers of corners, edges, and faces of a solid object and the five Platonic solids; the use of prime numbers to encode and decode secret information; the theory of how to compare the sizes of two infinite sets; and the rigorous theory of limits and continuous functions.",
+        "Qty": 20
+    },
+    "0faa5331-faf3-41e4-9d3c-0cb8292c5b43": {
+        "Title": "Around The World in Eighty Days",
+        "Author": "Jules Verne",
+        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd28hgpri8am2if.cloudfront.net%2Fbook_images%2Fonix%2Fcvr9781665934213%2Faround-the-world-in-eighty-days-9781665934213_hr.jpg&f=1&nofb=1&ipt=a2365ad9d1390811dafe51ad5f4f346e1d2c65b832a435803081e28139552ba2",
+        "Genre": "Adventure Novel",
+        "Description": "Pragmatic gambler Phileas Fogg has made a gentlemanly wager to the members of his exclusive club: that he can circle the world in just eighty days, right down to the minute. Fetching his newly appointed French valet, Fogg embarks on a fabulous journey across land and sea\u2014by steamer, rail, and elephant\u2014to win the bet of a lifetime.",
+        "Qty": 20
+    }
+}
