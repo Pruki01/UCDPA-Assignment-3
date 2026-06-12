@@ -8,3 +8,6 @@ instance/
 .webassets-cache
 
 .venv
+
+*.pdf
+flaskr.egg-info
