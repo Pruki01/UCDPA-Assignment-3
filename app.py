@@ -32,6 +32,9 @@ def book_page(ISBN):
 @app.route('/register', methods=['GET','POST'])
 def register():
 
+    if 'user_id' in session:
+        return redirect(url_for('index'))
+
     if request.method == 'POST':
         email       = request.form['email']
         password    = generate_password_hash(request.form['password'])
@@ -54,6 +57,9 @@ def register():
 @app.route('/login', methods=['GET', 'POST'])
 def login():
 
+    if 'user_id' in session:
+        return redirect(url_for('index'))
+
     if request.method == 'POST':
 
         email = request.form['email']
@@ -71,11 +77,10 @@ def login():
             session['user_id']    = current_user['Id']
             session['user_email'] = current_user['Email']
             session['user_type']  = current_user['User Type']
-            print(current_user['User Type'])
-            print(session['user_type'])
-            return redirect(url_for('login'))
+            return redirect(url_for('index'))
         
         flash(error)
+
     return render_template('auth/login.html')
 
 @app.route('/logout')
@@ -117,8 +122,8 @@ def add_book():
         new_book = book.Book(title, author, image, genre, desc, 0)
 
         if new_book:
-            add_book(new_book)
-            return redirect(url_for(index))
+            db.add_book(new_book)
+            return redirect(url_for('index'))
     return render_template('add_book.html')
 
 if __name__ == "__main__":
