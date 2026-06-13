@@ -105,6 +105,22 @@ def register_staff():
         return redirect(url_for('login'))
     return render_template('auth/staff_register.html')
 
+@app.route('/add_book', methods=['GET', 'POST'])
+def add_book():
+    if request.method == 'POST':
+        title   = request.form['title']
+        author  = request.form['author']
+        image   = request.form['image']
+        genre   = request.form['genre']
+        desc    = request.form['description']
+
+        new_book = book.Book(title, author, image, genre, desc, 0)
+
+        if new_book:
+            add_book(new_book)
+            return redirect(url_for(index))
+    return render_template('add_book.html')
+
 if __name__ == "__main__":
     app.secret_key = "SECRET"
     app.run(debug=True, port=5000)
