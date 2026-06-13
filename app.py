@@ -47,6 +47,8 @@ def register():
             address,
             user.UserType.Visitor
         ))
+        return redirect(url_for('index'))
+
     return render_template('auth/register.html')
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -58,10 +60,7 @@ def login():
         password = request.form['password']
         error = None
 
-        print(email)
-        print(password)
         current_user = db.load_user(email)
-        print(check_password_hash(password, current_user['Password'] ))
 
         if current_user is None:
             error = "User does not exist!"
@@ -71,12 +70,40 @@ def login():
             session.clear()
             session['user_id']    = current_user['Id']
             session['user_email'] = current_user['Email']
-            return redirect(url_for('index'))
+            session['user_type']  = current_user['User Type']
+            print(current_user['User Type'])
+            print(session['user_type'])
+            return redirect(url_for('login'))
         
-        print(current_user)
-        print(error)
         flash(error)
     return render_template('auth/login.html')
+
+@app.route('/logout')
+def logout():
+    session.clear()
+    return redirect(url_for('index'))
+
+@app.route('/register_staff', methods=['GET','POST'])
+def register_staff():
+
+    if request.method == 'POST':
+        email       = request.form['email']
+        password    = generate_password_hash(request.form['password'])
+        f_name      = request.form['first_name']
+        l_name      = request.form['last_name']
+        address     = request.form['address']
+
+        db.add_user(user.User(
+            email,
+            password,
+            f_name,
+            l_name,
+            address,
+            user.UserType.Staff
+        ))
+
+        return redirect(url_for('login'))
+    return render_template('auth/staff_register.html')
 
 if __name__ == "__main__":
     app.secret_key = "SECRET"
