@@ -125,5 +125,4 @@ def add_book():
     return render_template('add_book.html')
 
 if __name__ == "__main__":
-    app.secret_key = "SECRET"
-    app.run(debug=True, port=5000)
+    app.run(debug=False, port=5000)
