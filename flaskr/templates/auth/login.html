@@ -12,14 +12,12 @@
     <form method="post">
         <label for="email">Email</label>
         <input type="email" name="email" id="email" required>
-        <p class="danger" id="email__message">Hello world!</p>
         <label for="password">Password</label>
         <div class="password__wrapper">
             <input class="password__box" type="password" name="password" id="password" required>
             <i class="fa-solid fa-eye" id="toggle__password"></i>
         </div>
-        <p class="hidden" id="password__message"></p>
-        <input type="submit" value="Log In">
+        <input id="submit" type="submit" value="Log In">
     </form>
 
     <script src="{{ url_for('static', filename='js/password.js')}}"> </script>

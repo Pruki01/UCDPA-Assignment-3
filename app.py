@@ -5,17 +5,6 @@ from flask import(
 )
 from werkzeug.security import check_password_hash, generate_password_hash
 
-new_book = book.Book(
-    'The Stranger',
-    'Albert Camus',
-    'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2Fd53163_c2870aa99b4b43e69e95d7760244d1ed~mv2.jpg%2Fv1%2Ffill%2Fw_980%2Ch_1307%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto%2Fd53163_c2870aa99b4b43e69e95d7760244d1ed~mv2.jpg&f=1&nofb=1&ipt=ecae0ec63cdeaf90eb692731dedafed976d839d9dffb81e414314d524654ef44',
-    'Fiction',
-    'The Stranger also published in English as The Outsider, is a 1942 novella written by French author Albert Camus. The first of Camus\' novels published in his lifetime, the story follows Meursault, an indifferent settler in French Algeria, who, weeks after his mother\'s funeral, kills an unnamed Arab man in Algiers. The story is divided into two parts, presenting Meursault\'s first-person narrative before and after the killing.',
-    100
-)
-
-db.add_book(new_book)
-
 @app.route('/')
 def index():
     return render_template('index.html', book_list=db.load_books())
@@ -50,7 +39,7 @@ def register():
             address,
             user.UserType.Visitor
         ))
-        return redirect(url_for('index'))
+        return redirect(url_for('login'))
 
     return render_template('auth/register.html')
 
@@ -108,7 +97,7 @@ def register_staff():
                 user.UserType.Staff
             ))
 
-            return redirect(url_for('login'))
+            return redirect(url_for('index'))
     else:
         return redirect(url_for('index'))
 

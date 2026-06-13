@@ -60,12 +60,12 @@ textarea{
 }
 
 .danger{
-    color: var(--danger-fc)
+    color: var(--danger-fc);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
-.correct{
-    color: var(--correct-fc)
-}
 
 .hidden{
     display: none;

@@ -1,12 +1,12 @@
 {
     "test@gmail.com": {
-        "Id": "2948a4a8-8844-5359-9793-0b360ed84ee4",
+        "Id": "4f5fc027-e25a-59f8-9489-d83a9d12fe9d",
         "Email": "test@gmail.com",
-        "Password": "scrypt:32768:8:1$WVOxIk0gZzvrWnZ5$09c4dd9db1e806f5f968be376350cbfa396394e5914f75059a12932b83629f7c147d9b5d74263c7dc15077528e1112eb4a156759632281d9f9c96debba23ee32",
-        "First Name": "Test",
-        "Last Name": "User",
-        "Address": "Online",
-        "User Type": "Staff"
+        "Password": "scrypt:32768:8:1$ZFiTLKu1prgWkg2p$831065a7a2fff6f38937726ec4c77aedfba33a524a537480afa59e15277120bec9f062c0186f995f2c6defb65d0c9dc3a6312306803648489bb3b032631dd96d",
+        "First Name": "test",
+        "Last Name": "test",
+        "Address": "test",
+        "User Type": "Visitor"
     },
     "test2@gmail.com": {
         "Id": "23b93584-27f2-5468-bee2-05f45b731082",
@@ -24,6 +24,24 @@
         "First Name": "Visitor",
         "Last Name": "Library",
         "Address": "Library",
+        "User Type": "Visitor"
+    },
+    "Test@gmail.com": {
+        "Id": "8914befa-5a57-5056-ba8b-5015b729f49a",
+        "Email": "Test@gmail.com",
+        "Password": "scrypt:32768:8:1$ZoaNbuarLwZ1dk9h$95e4ffea12c49dd5916a57f761d848080ff51e44b63903541ac52a0f89972397365b8120c219fabbc63a28e2453fe7751d74a17372204796f97abca7814a0d7a",
+        "First Name": "Test",
+        "Last Name": "Test",
+        "Address": "Test",
+        "User Type": "Visitor"
+    },
+    "test3@gmail.com": {
+        "Id": "a74955d5-8302-5391-9d20-e4ac77dc2f1e",
+        "Email": "test3@gmail.com",
+        "Password": "scrypt:32768:8:1$KokcapRmAXKSowwZ$2e67b74b8eeaaf8a7ca9b73545f26a1d8df8135af6d96c855d8b12e98924c4807da50cee750aa32cbd8eeea97de10adee312b4b75084c285c7a9c6b242bf7ca1",
+        "First Name": "TestMe",
+        "Last Name": "TestNow",
+        "Address": "Testing",
         "User Type": "Visitor"
     }
 }

@@ -28,10 +28,15 @@ nav{
 
 }
 
+nav h2{
+    font-size: 1.75rem;
+}
+
 .nav__links a{
 
     color: var(--primary-f-colour);
     text-decoration: none;
-    margin-right: .25rem;
+    margin-right: .5em;
+    font-size: 1.25rem;
 
 }
