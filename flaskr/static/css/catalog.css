@@ -1,0 +1,22 @@
+#catalog{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 20vw));
+    grid-auto-rows: 500px;
+}
+
+.book__img-container{
+
+    height: 450px;
+    overflow: hidden;
+
+}
+
+.book__img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
