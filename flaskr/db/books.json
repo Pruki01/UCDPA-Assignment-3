@@ -1,37 +1,6 @@
 {
-    "7876bc73-6823-4ce5-a994-70618d74318e": {
-        "Title": "The Yellow Wallpaper",
-        "Author": "Charlotte Perkins Gilman",
-        "Image": "https://m.media-amazon.com/images/I/516m5+GudTL._AC_UF1000,1000_QL80_.jpg",
-        "Genre": "Horror",
-        "Description": "This short story is regarded as an important early work of American feminist literature, illustrating attitudes in the 19th century toward women's health, both physical and mental. Presented in the first person, the story is a collection of journal entries written by a woman whose physician husband (John) has rented an old mansion for the summer. Forgoing other rooms in the house, the couple moves into the upstairs nursery. As a form of treatment, the unnamed woman is forbidden from working, and is encouraged to eat well and get plenty of exercise and air, so she can recuperate from what he calls a \"temporary nervous depression \u2013 a slight hysterical tendency\", a diagnosis common to women in that period. Gilman used her writing to explore the role of women in America at the time. She explored issues such as the lack of a life outside the home and the oppressive forces of the patriarchal society.",
-        "Qty": 30
-    },
-    "7922a442-fc63-4bb4-9e2d-dfbeb4312351": {
-        "Title": "Animal Farm",
-        "Author": "George Orwell",
-        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fscottberkun.com%2Fwp-content%2Fuploads%2F2017%2F01%2Fanimal_farm_cover2014.jpg&f=1&nofb=1&ipt=505480be8db3fb07050b61759ef5c04531dd2381a9cb7d2521b9fa93ec46dbd4",
-        "Genre": "Political Satire",
-        "Description": "As humans get ousted from Manor Farm and animals take control, their utopian fantasy of running a farm on the basis of equality soon begins to crumble before their eyes. The rebellion of the animals, led by the two pigs, Napoleon and Snowball, gives way to corrupt practices that lead to unthinkable consequences.",
-        "Qty": 50
-    },
-    "a70e9e75-2a86-4dd8-a401-1557c2c4c188": {
-        "Title": "The Metamorphosis",
-        "Author": "Franz Kafka",
-        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fb5%2Fac%2Fa8%2Fb5aca8193b3667bb283f8ba4531a0a53.jpg&f=1&nofb=1&ipt=e874d91049dd11f1547bba0d60c6fbf5e57bb98181f1bfcce05a1237792f6187",
-        "Genre": "Dark Comedy",
-        "Description": "One morning, traveling salesman Gregor Samsa wakes from an anxious dream to discover that he has inexplicably changed into a monstrous insect. Nonetheless, life goes on, and poor Gregor is left to deal not only with the existential questions of who or what he now is but also with more mundane concerns: his job (which he fears he\u2019ll lose), his loved ones (whom he fears he disgusts), and the daily indignities of everyday life (which continue apace). Soon, even those who sympathize with his bizarre predicament begin to lose their patience\u2026",
-        "Qty": 15
-    },
-    "3fde7f69-c9a5-4dcd-adf2-640ea98aeeb9": {
-        "Title": "The Count of Monte Cristo",
-        "Author": "Alexandar Dumas",
-        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81JCe8%2BBS-L._SL1500_.jpg&f=1&nofb=1&ipt=3ecc227e55c923310ebea1cefee437c4b3294a2c16ad10ed97d3dfdf6cd0adcf",
-        "Genre": "Adventure Novel",
-        "Description": "Thrown in prison for a crime he has not committed, Edmond Dant\u00e8s is confined to the grim fortress of If. There he learns of a great hoard of treasure hidden on the Isle of Monte Cristo and he becomes determined not only to escape, but also to use the treasure to plot the destruction of the three men responsible for his incarceration. Dumas' epic tale of suffering and retribution, inspired by a real-life case of wrongful imprisonment, was a huge popular success when it was first serialized in the 1840s.",
-        "Qty": 20
-    },
     "8068ad47-3090-4b98-9b85-1752fc798695": {
+        "ISBN": "8068ad47-3090-4b98-9b85-1752fc798695",
         "Title": "Dracula",
         "Author": "Bram Stoker",
         "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn2.penguin.com.au%2Fcovers%2Foriginal%2F9780141439846.jpg&f=1&nofb=1&ipt=b5d1acf2842864481d3a9eaa30036aa6104bd134f8abe6aaff20f17db002be71",
@@ -39,20 +8,112 @@
         "Description": "Young lawyer Jonathan Harker journeys to Transylvania to meet with the mysterious Count Dracula only to discover that his nobleman client is a vampire who is thirsty for new blood. After imprisoning Harker in his castle, Dracula travels to England to seduce Jonathan\u2019s fianc\u00e9e, Mina, and the battle against an ineffable evil begins.",
         "Qty": 20
     },
-    "3e422356-ddd6-49c0-902f-ee300f47f79f": {
-        "Title": "A Concise Introduction To Pure Mathematics",
-        "Author": "Martin Liebeck",
-        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcontents.kyobobook.co.kr%2Fsih%2Ffit-in%2F458x0%2Fpdt%2F9781439835982.jpg&f=1&nofb=1&ipt=2e8095349beda5d645c8ce4376575174821ad871709bbd4f0c5759a45b2fd675",
-        "Genre": "Educational",
-        "Description": "Accessible to all students with a sound background in high school mathematics, A Concise Introduction to Pure Mathematics, Fourth Edition presents some of the most fundamental and beautiful ideas in pure mathematics. It covers not only standard material but also many interesting topics not usually encountered at this level, such as the theory of solving cubic equations; Euler\u2019s formula for the numbers of corners, edges, and faces of a solid object and the five Platonic solids; the use of prime numbers to encode and decode secret information; the theory of how to compare the sizes of two infinite sets; and the rigorous theory of limits and continuous functions.",
-        "Qty": 20
-    },
-    "0faa5331-faf3-41e4-9d3c-0cb8292c5b43": {
+    "b1ad8291-03e7-53de-8099-5b40cb82febd": {
+        "ISBN": "b1ad8291-03e7-53de-8099-5b40cb82febd",
         "Title": "Around The World in Eighty Days",
         "Author": "Jules Verne",
         "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd28hgpri8am2if.cloudfront.net%2Fbook_images%2Fonix%2Fcvr9781665934213%2Faround-the-world-in-eighty-days-9781665934213_hr.jpg&f=1&nofb=1&ipt=a2365ad9d1390811dafe51ad5f4f346e1d2c65b832a435803081e28139552ba2",
         "Genre": "Adventure Novel",
         "Description": "Pragmatic gambler Phileas Fogg has made a gentlemanly wager to the members of his exclusive club: that he can circle the world in just eighty days, right down to the minute. Fetching his newly appointed French valet, Fogg embarks on a fabulous journey across land and sea\u2014by steamer, rail, and elephant\u2014to win the bet of a lifetime.",
         "Qty": 20
+    },
+    "4eb55b60-62fb-5947-b9fe-9cec73b054ad": {
+        "ISBN": "4eb55b60-62fb-5947-b9fe-9cec73b054ad",
+        "Title": "A Concise Introduction To Pure Mathematics",
+        "Author": "Martin Liebeck",
+        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcontents.kyobobook.co.kr%2Fsih%2Ffit-in%2F458x0%2Fpdt%2F9781439835982.jpg&f=1&nofb=1&ipt=2e8095349beda5d645c8ce4376575174821ad871709bbd4f0c5759a45b2fd675",
+        "Genre": "Adventure Novel",
+        "Description": "Accessible to all students with a sound background in high school mathematics, A Concise Introduction to Pure Mathematics, Fourth Edition presents some of the most fundamental and beautiful ideas in pure mathematics. It covers not only standard material but also many interesting topics not usually encountered at this level, such as the theory of solving cubic equations; Euler\u2019s formula for the numbers of corners, edges, and faces of a solid object and the five Platonic solids; the use of prime numbers to encode and decode secret information; the theory of how to compare the sizes of two infinite sets; and the rigorous theory of limits and continuous functions.",
+        "Qty": 20
+    },
+    "d80e1dd9-412b-51ef-bbe8-c94d47e438c7": {
+        "ISBN": "d80e1dd9-412b-51ef-bbe8-c94d47e438c7",
+        "Title": "The Count of Monte Cristo",
+        "Author": "Alexandre Dumas",
+        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81JCe8%2BBS-L._SL1500_.jpg&f=1&nofb=1&ipt=3ecc227e55c923310ebea1cefee437c4b3294a2c16ad10ed97d3dfdf6cd0adcf",
+        "Genre": "Adventure Novel",
+        "Description": "Thrown in prison for a crime he has not committed, Edmond Dantes is confined to the grim fortress of If. There he learns of a great hoard of treasure hidden on the Isle of Monte Cristo and he becomes determined not only to escape, but also to use the treasure to plot the destruction of the three men responsible for his incarceration. Dumas' epic tale of suffering and retribution, inspired by a real-life case of wrongful imprisonment, was a huge popular success when it was first serialized in the 1840s.",
+        "Qty": 20
+    },
+    "6b29e076-b744-5736-875a-e5e6f5acc53b": {
+        "ISBN": "6b29e076-b744-5736-875a-e5e6f5acc53b",
+        "Title": "The Metamorphosis",
+        "Author": "Franz Kafka",
+        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fb5%2Fac%2Fa8%2Fb5aca8193b3667bb283f8ba4531a0a53.jpg&f=1&nofb=1&ipt=e874d91049dd11f1547bba0d60c6fbf5e57bb98181f1bfcce05a1237792f6187",
+        "Genre": "Dark Comedy",
+        "Description": "One morning, traveling salesman Gregor Samsa wakes from an anxious dream to discover that he has inexplicably changed into a monstrous insect. Nonetheless, life goes on, and poor Gregor is left to deal not only with the existential questions of who or what he now is but also with more mundane concerns: his job (which he fears he\u2019ll lose), his loved ones (whom he fears he disgusts), and the daily indignities of everyday life (which continue apace). Soon, even those who sympathize with his bizarre predicament begin to lose their patience.",
+        "Qty": 15
+    },
+    "fb0dfefc-c0c2-5a97-bd3d-1af8adcf2e24": {
+        "ISBN": "fb0dfefc-c0c2-5a97-bd3d-1af8adcf2e24",
+        "Title": "Animal Farm",
+        "Author": "George Orwell",
+        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fscottberkun.com%2Fwp-content%2Fuploads%2F2017%2F01%2Fanimal_farm_cover2014.jpg&f=1&nofb=1&ipt=505480be8db3fb07050b61759ef5c04531dd2381a9cb7d2521b9fa93ec46dbd4",
+        "Genre": "Political Satire",
+        "Description": "As humans get ousted from Manor Farm and animals take control, their utopian fantasy of running a farm on the basis of equality soon begins to crumble before their eyes. The rebellion of the animals, led by the two pigs, Napoleon and Snowball, gives way to corrupt practices that lead to unthinkable consequences.",
+        "Qty": 50
+    },
+    "fca92679-3d1a-5265-b81b-d3fc3b259e5f": {
+        "ISBN": "fca92679-3d1a-5265-b81b-d3fc3b259e5f",
+        "Title": "The Yellow Wallpaper",
+        "Author": "Charlotte Perkins Gilman",
+        "Image": "https://m.media-amazon.com/images/I/516m5+GudTL._AC_UF1000,1000_QL80_.jpg",
+        "Genre": "Horror",
+        "Description": "This short story is regarded as an important early work of American feminist literature, illustrating attitudes in the 19th century toward women's health, both physical and mental. Presented in the first person, the story is a collection of journal entries written by a woman whose physician husband (John) has rented an old mansion for the summer. Forgoing other rooms in the house, the couple moves into the upstairs nursery. As a form of treatment, the unnamed woman is forbidden from working, and is encouraged to eat well and get plenty of exercise and air, so she can recuperate from what he calls a \"temporary nervous depression \u2013 a slight hysterical tendency\", a diagnosis common to women in that period. Gilman used her writing to explore the role of women in America at the time. She explored issues such as the lack of a life outside the home and the oppressive forces of the patriarchal society.",
+        "Qty": 30
+    },
+    "8f2765b8-bb19-518f-9183-13f449d36319": {
+        "ISBN": "8f2765b8-bb19-518f-9183-13f449d36319",
+        "Title": "The Old Man and the Sea",
+        "Author": "Ernest Hemingway",
+        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F0%2F00%2FThe_Old_Man_and_the_Sea_(1952)_front_cover%252C_first_edition.jpg&f=1&nofb=1&ipt=81c954ddc36c63d44bb4f90ca51e780e8c8b702179bce7a3063b3eee702ff7e6",
+        "Genre": "Literary fiction",
+        "Description": "Set in the Gulf Stream off the coast of Havana, Hemingway's magnificent fable is the story of an old man, a young boy and a giant fish.",
+        "Qty": 27
+    },
+    "8c364531-f11f-56f5-9d91-c84d2247752a": {
+        "ISBN": "8c364531-f11f-56f5-9d91-c84d2247752a",
+        "Title": "University Physics with Modern Physics, Global Edition",
+        "Author": "Hugh Young, Roger Freedman",
+        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81GzdRrH7TL._SL1500_.jpg&f=1&nofb=1&ipt=ab572b8a3572205479aa32a9e8b0ae4e8c959f12cf4e7ceff9b27e7504ffec6e",
+        "Genre": "Educational",
+        "Description": "University Physics with Modern Physics, 15th edition, now in SI Units, is known for its clear and accessible approach to physics. With its step-by-step guidance and variety of problem types, the textbook will help you solve the most complex problems in physics.",
+        "Qty": 10
+    },
+    "0b3fb877-21c2-5369-91f1-a4cad167827f": {
+        "ISBN": "0b3fb877-21c2-5369-91f1-a4cad167827f",
+        "Title": "A Month in the Country",
+        "Author": "J.L. Carr",
+        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81AFiKXiDxL.jpg&f=1&nofb=1&ipt=1fae2658dc739ce2178837c0c730ae277c0a2dbb964fdbee5d963f4986758f82",
+        "Genre": "Fiction",
+        "Description": "A damaged survivor of the First World War, Tom Birkin finds refuge in the quiet village church of Oxgodby where he is to spend the summer uncovering a huge medieval wall-painting. Immersed in the peace and beauty of the countryside and the unchanging rhythms of village life he experiences a sense of renewal and belief in the future. Now an old man, Birkin looks back on the idyllic summer of 1920, remembering a vanished place of blissful calm, untouched by change, a precious moment he has carried with him through the disappointments of the years. Adapted into a film starring Colin Firth, Natasha Richardson and Kenneth Branagh, A Month in the Country traces the slow revival of the primeval rhythms of life so cruelly disorientated by the Great War.",
+        "Qty": 8
+    },
+    "fa24e2e1-708a-5ba3-9c3e-880f4818e9ff": {
+        "ISBN": "fa24e2e1-708a-5ba3-9c3e-880f4818e9ff",
+        "Title": "Music & Silence",
+        "Author": "Rose Tremain",
+        "Image": "https://m.media-amazon.com/images/I/91FSuGXkVqL._SL1500_.jpg",
+        "Genre": "Fiction Novel",
+        "Description": "Set in Denmark and\\\u2019s estranged wife, Kirsten Munk \u2013 and further into court intrigue. ,8 in the shadow of the Thirty Years\u2019 War, Music & Silence follows Peter as he joins King Christian IV\u2019s royal orchestra at Rosenborg Castle. The musicians perform in a freezing cellar beneath the splendour of the court, a stark contrast to the glittering chambers above. Yet although he is favoured by the King and nicknamed his \u201cAngel\u201d, Peter is drawn into a forbidden love affair with Emilia Tilsen, companion to the King",
+        "Qty": 13
+    },
+    "71c8ac6e-2065-5403-80d4-b1b737dc23f0": {
+        "ISBN": "71c8ac6e-2065-5403-80d4-b1b737dc23f0",
+        "Title": "James",
+        "Author": "Percival Everett",
+        "Image": "https://m.media-amazon.com/images/I/81w9ynGiH2L._SL1500_.jpg",
+        "Genre": "Fiction",
+        "Description": "The Mississippi River, 1861. When the enslaved Jim overhears that he is about to be sold to a new owner in New Orleans and separated from his wife and daughter forever, he flees to nearby Jackson\u2019s Island until he can formulate a plan. Meanwhile, Huck Finn has faked his own death to escape his violent father who recently returned to town.",
+        "Qty": 3
+    },
+    "275506f9-62e9-5106-9eb9-26f153c33e1e": {
+        "ISBN": "275506f9-62e9-5106-9eb9-26f153c33e1e",
+        "Title": "The Stranger",
+        "Author": "Albert Camus",
+        "Image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2Fd53163_c2870aa99b4b43e69e95d7760244d1ed~mv2.jpg%2Fv1%2Ffill%2Fw_980%2Ch_1307%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto%2Fd53163_c2870aa99b4b43e69e95d7760244d1ed~mv2.jpg&f=1&nofb=1&ipt=ecae0ec63cdeaf90eb692731dedafed976d839d9dffb81e414314d524654ef44",
+        "Genre": "Fiction",
+        "Description": "The Stranger also published in English as The Outsider, is a 1942 novella written by French author Albert Camus. The first of Camus' novels published in his lifetime, the story follows Meursault, an indifferent settler in French Algeria, who, weeks after his mother's funeral, kills an unnamed Arab man in Algiers. The story is divided into two parts, presenting Meursault's first-person narrative before and after the killing.",
+        "Qty": 100
     }
 }
