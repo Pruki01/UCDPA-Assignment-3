@@ -11,3 +11,4 @@ instance/
 
 *.pdf
 flaskr.egg-info
+.env
