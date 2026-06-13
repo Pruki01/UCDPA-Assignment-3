@@ -1,10 +1,29 @@
 {
-    "bc481342-8cdd-4981-b99d-747406b355b7": {
-        "Email": "email@gmail.com",
-        "Password": "password123",
-        "First Name": "John",
-        "Last Name": "Smith",
-        "Address": "New York City",
+    "test@gmail.com": {
+        "Id": "2948a4a8-8844-5359-9793-0b360ed84ee4",
+        "Email": "test@gmail.com",
+        "Password": "scrypt:32768:8:1$WVOxIk0gZzvrWnZ5$09c4dd9db1e806f5f968be376350cbfa396394e5914f75059a12932b83629f7c147d9b5d74263c7dc15077528e1112eb4a156759632281d9f9c96debba23ee32",
+        "First Name": "Test",
+        "Last Name": "User",
+        "Address": "Online",
+        "User Type": "Staff"
+    },
+    "test2@gmail.com": {
+        "Id": "23b93584-27f2-5468-bee2-05f45b731082",
+        "Email": "test2@gmail.com",
+        "Password": "scrypt:32768:8:1$XvZI4TrWWaRlWsMM$6423b84aa68caf149cb95265c6d329ccf172ef06745c1bd3ace0f0958e26edc1a620540a69f45748bba13f7608773b6829d9ce2608880b1591e84d68aeadf03d",
+        "First Name": "User",
+        "Last Name": "Test",
+        "Address": "Onsite",
+        "User Type": "Staff"
+    },
+    "visitor@gmail.com": {
+        "Id": "9a3c13eb-82fe-5c01-b1b7-4376c4297a32",
+        "Email": "visitor@gmail.com",
+        "Password": "scrypt:32768:8:1$ZMykCCwZplivWvxB$611da49158c0f8b4f82e5056120585e53912ce65c683b36bd7fad3e68caebd1afc06fdaf4953d1145910a0a15a74697d7f0d11898c126647cb8f892abc113032",
+        "First Name": "Visitor",
+        "Last Name": "Library",
+        "Address": "Library",
         "User Type": "Visitor"
     }
 }

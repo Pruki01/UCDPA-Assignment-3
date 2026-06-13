@@ -32,5 +32,6 @@ nav{
 
     color: var(--primary-f-colour);
     text-decoration: none;
+    margin-right: .25rem;
 
 }

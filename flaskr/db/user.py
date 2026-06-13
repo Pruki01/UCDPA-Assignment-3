@@ -7,14 +7,14 @@ class UserType(Enum):
 class User:
     
     def __init__(self, email, password, f_name, l_name, address, user_type):
-        self._id        = uuid5(NAMESPACE_OID,
-                                f"{self._email}|{self._password}")
         self._email     = email
         self._password  = password
         self._f_name    = f_name
         self._l_name    = l_name
         self._address   = address
         self._user_type = user_type
+        self._id        = uuid5(NAMESPACE_OID,
+                                f"{self._email}|{self._password}")
 
     def get_id(self):
         return self._id
@@ -56,7 +56,7 @@ class User:
 
         return {
 
-            "Id": self._id,
+            "Id": str(self._id),
             "Email": self._email,
             "Password": self._password,
             "First Name": self._f_name,

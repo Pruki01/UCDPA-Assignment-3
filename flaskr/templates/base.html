@@ -17,17 +17,17 @@
         <h2><a href="{{ url_for('index') }}">Best Library</a></h2>
         
         <div class="nav__links">
-            <a href="#">About us</a>
+            <a class="nav__link" href="#">About us</a>
 
             {% if session.get('user_type') == 'Staff' %}
-                <a href="">Add Books</a>
-                <a href="{{ url_for('register_staff')}}">Add Staff</a>
+                <a class="nav__link" href="{{ url_for('add_book') }}">Add Books</a>
+                <a class="nav__link" href="{{ url_for('register_staff')}}">Add Staff</a>
             {% endif %}
             {% if session['user_id'] %}
-                <a href="{{ url_for('logout') }}">Logout</a>
+                <a class="nav__link" href="{{ url_for('logout') }}">Logout</a>
             {% else %}
-                <a href="{{ url_for('login')}}">Log In</a>
-                <a href="{{ url_for('register')}}">Register</a>
+                <a class="nav__link" href="{{ url_for('login')}}">Log In</a>
+                <a class="nav__link" href="{{ url_for('register')}}">Register</a>
             {% endif %}
         </div>
     </nav>

@@ -39,11 +39,12 @@ def user_exists(user):
 def load_users():
     return load_file(users_path)
 
-def load_user(id):
+def load_user(email):
 
     current_users = load_users()
-    if id in current_users:
-        return current_users[id]
+    print(current_users)
+    if email in current_users:
+        return current_users[email]
     else:
         return None
 
@@ -54,7 +55,7 @@ def add_user(user):
     
     if not user_exists(user):
         current_users = load_users()
-        current_users[str(user.get_id())] = user.to_json()
+        current_users[user.get_email()] = user.to_json()
         write_users(current_users)
 
 def change_password(user_id, new_password):
