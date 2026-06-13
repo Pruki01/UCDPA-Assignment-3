@@ -72,8 +72,10 @@ def remove_user(user):
 def load_books():
     return load_file(books_path)
 
-def load_book(ISBN, book_list):
+def load_book(ISBN):
     current_books = load_books()
+    ISBN = str(ISBN)
+
     if ISBN in current_books:
         return current_books[ISBN]
     else:
@@ -85,8 +87,9 @@ def write_books(json_data):
 def add_book(book):
 
     books = load_books()
-    books[str(book.get_id())] = book.to_json()
-    write_books()
+    if not book.get_isbn() in books:
+        books[str(book.get_isbn())] = book.to_json()
+        write_books(books)
 
 def update_book(isbn):
     pass
