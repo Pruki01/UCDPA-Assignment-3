@@ -1,13 +1,15 @@
-from uuid import uuid4
+from uuid import uuid5, NAMESPACE_OID
 class Book:
 
-    def __init__(self, title, author, img, genre, qty):
-        self._isbn      = uuid4()
-        self._title     = title 
-        self._author    = author
-        self._img       = img
-        self._genre     = genre
-        self._qty       = qty
+    def __init__(self, title, author, img, genre, description, qty):
+        self._title         = title 
+        self._author        = author
+        self._img           = img
+        self._genre         = genre
+        self._description   = description
+        self._qty           = qty
+        self._isbn          = uuid5(NAMESPACE_OID, 
+                                    f"{self._title}|{self._author}")
 
     def get_isbn(self):
         return self._isbn
@@ -41,5 +43,6 @@ class Book:
                 "Author": self._author,
                 "Image": self._img,
                 "Genre": self._genre,
+                "Description": self._description,
                 "Qty": self._qty
             }
