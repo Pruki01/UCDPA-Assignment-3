@@ -14,7 +14,7 @@ def book_page(ISBN):
     book = db.load_book(ISBN)
 
     if book is None:
-        return render_template('404.html')
+        return redirect(url_for('index'))
     else:
         return render_template('book.html', book=book)
 
