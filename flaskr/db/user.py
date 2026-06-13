@@ -1,4 +1,4 @@
-from uuid import uuid4
+from uuid import uuid5, NAMESPACE_OID
 from enum import Enum
 
 class UserType(Enum):
@@ -7,7 +7,8 @@ class UserType(Enum):
 class User:
     
     def __init__(self, email, password, f_name, l_name, address, user_type):
-        self._id        = uuid4()
+        self._id        = uuid5(NAMESPACE_OID,
+                                f"{self._email}|{self._password}")
         self._email     = email
         self._password  = password
         self._f_name    = f_name
@@ -55,6 +56,7 @@ class User:
 
         return {
 
+            "Id": self._id,
             "Email": self._email,
             "Password": self._password,
             "First Name": self._f_name,
