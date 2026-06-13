@@ -1,4 +1,7 @@
 {% extends 'base.html' %} 
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/book.css')}}">
+{% endblock %}
 
 {% block title %}
     {{ book['Title'] }}
@@ -6,11 +9,14 @@
 
 {% block content %}
 
-    <div class="book__hero">
-        <img src="{{ book['Image']}} " alt="">
+    <div class="book__area">
+        <div class="book__hero">
+            <img src="{{ book['Image']}} " alt="Photo of book book['Title']">
+        </div>
         <div class="book__information">
             <h1>{{ book['Title'] }}</h1>
             <h3>{{ book['Author'] }}</h3>
+            <p>{{ book['Description'] }}</p>
         </div>
     </div>
 
