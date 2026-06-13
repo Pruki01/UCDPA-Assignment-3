@@ -4,9 +4,15 @@
 
 }
 
+a{
+    color: var(--primary-f-colour);
+    text-decoration: none;
+}
+
 body{
 
     margin: 0 auto;
+    width: 95vw;
 
 }
 
