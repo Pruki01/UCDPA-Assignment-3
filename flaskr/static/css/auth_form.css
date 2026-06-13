@@ -1,3 +1,13 @@
+:root{
+
+    --danger-fc: rgb(255, 58, 58);
+    --correct-fc: rgb(83, 226, 83);
+}
+
+*{
+    box-sizing: border-box;
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -10,7 +20,53 @@ input{
     font-size: 20px;
 
     padding: 1rem;
-    margin: 0.6rem;
+    margin: 0.6rem 0;
     border-color: black;
 
+}
+
+textarea{
+
+    height: 30vh;
+}
+
+.password__wrapper{
+
+    position: relative;
+    width: 100%;
+
+}
+
+.password__box{
+
+    width: 100%;
+
+}
+
+#toggle__password{
+    color: rgb(82, 82, 82);
+    font-size: 1.5rem;
+    position: absolute;
+    cursor: pointer;
+
+    top:50%;
+    transform: translateY(-50%);
+    right: 1rem;
+
+}
+
+#toggle__password:hover{
+    color: black;
+}
+
+.danger{
+    color: var(--danger-fc)
+}
+
+.correct{
+    color: var(--correct-fc)
+}
+
+.hidden{
+    display: none;
 }

@@ -17,8 +17,6 @@
         <h2><a href="{{ url_for('index') }}">Best Library</a></h2>
         
         <div class="nav__links">
-            <a class="nav__link" href="#">About us</a>
-
             {% if session.get('user_type') == 'Staff' %}
                 <a class="nav__link" href="{{ url_for('add_book') }}">Add Books</a>
                 <a class="nav__link" href="{{ url_for('register_staff')}}">Add Staff</a>

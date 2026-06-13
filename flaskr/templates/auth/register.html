@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% block head %}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/auth_form.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 {% endblock %}
 
 {% block title %}
@@ -8,13 +9,14 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Register</h1>
-
     <form method="post">
         <label for="email">Email</label>
         <input type="email" name="email" id="email" required>
         <label for="password">Password</label>
-        <input type="password" name="password" id="password" required>
+        <div class="password__wrapper">
+            <input class="password__box" type="password" name="password" id="password" required>
+            <i class="fa-solid fa-eye" id="toggle__password"></i>
+        </div>
         <label for="first_name">First Name</label>
         <input type="text" name="first_name" id="first_name" required>
         <label for="last_name">Last Name</label>
@@ -23,4 +25,5 @@
         <input type="text" name="address" id="address" required>
         <input type="submit" value="Register">
     </form>
+    <script src="{{ url_for('static', filename='js/password.js')}}"> </script>
 {% endblock %}
