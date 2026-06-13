@@ -19,9 +19,12 @@
         <div class="nav__links">
             <a href="#">About us</a>
 
+            {% if session.get('user_type') == 'Staff' %}
+                <a href="">Add Books</a>
+                <a href="{{ url_for('register_staff')}}">Add Staff</a>
+            {% endif %}
             {% if session['user_id'] %}
                 <a href="{{ url_for('logout') }}">Logout</a>
-                <p>{{session.get('user_email')}}</p>
             {% else %}
                 <a href="{{ url_for('login')}}">Log In</a>
                 <a href="{{ url_for('register')}}">Register</a>

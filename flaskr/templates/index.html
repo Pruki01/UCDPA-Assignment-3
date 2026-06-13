@@ -14,11 +14,11 @@
             {% for book in book_list.values() %}
                 <a href="{{ url_for('book_page', ISBN=book['ISBN']) }}">
                     <div class="book__card grid__container">
-                        <h3>{{ book['Title'] }}</h1>
-                        <h4> {{ book['Author'] }}</h2>
                         <div class="book__img-container">
                             <img class="book__img" src="{{ book['Image'] }} " alt="Cover of the book {{ book['Title'] }}">
                         </div>
+                        <h3>{{ book['Title'] }}</h1>
+                        <h4> {{ book['Author'] }}</h2>
                     </div>
                 </a>
             {% endfor %}

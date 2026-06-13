@@ -4,17 +4,23 @@
 {% endblock %}
 
 {% block title %}
-    Log In
+    Register
 {% endblock %}
 
 {% block content %}
-    <h1>Log In</h1>
+    <h1>Add Staff Account</h1>
 
     <form method="post">
         <label for="email">Email</label>
         <input type="email" name="email" id="email" required>
         <label for="password">Password</label>
         <input type="password" name="password" id="password" required>
-        <input type="submit" value="Log In">
+        <label for="first_name">First Name</label>
+        <input type="text" name="first_name" id="first_name" required>
+        <label for="last_name">Last Name</label>
+        <input type="text" name="last_name" id="last_name" required>
+        <label for="address">Address</label>
+        <input type="text" name="address" id="address" required>
+        <input type="submit" value="Register">
     </form>
 {% endblock %}
